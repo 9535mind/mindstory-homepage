@@ -118,3 +118,32 @@
 .move-notice{background:var(--navy);color:#d6e4ea;font-size:.875rem;line-height:1.5;text-align:center;padding:9px 16px}
 .move-notice a{color:var(--mint);font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .move-notice a:hover{color:#fff}
+
+/* 오시는 길 */
+.location-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:22px}
+.location-card{background:#fff;border:1px solid #dfe7e8;border-radius:14px;padding:30px}
+.location-row{display:flex;gap:14px;align-items:flex-start}
+.location-row>.icon{color:var(--teal);width:26px;height:26px;margin-top:2px}
+.location-card h3{font-size:1.125rem;letter-spacing:-.03em}
+.location-address{margin-top:6px;font-size:1.125rem;font-weight:700;line-height:1.6;letter-spacing:-.02em}
+.location-address span{display:block;font-size:.9375rem;font-weight:400;color:var(--muted)}
+.location-hint{margin-top:10px;color:var(--muted);line-height:1.8;letter-spacing:-.02em}
+.map-buttons{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 0 40px}
+.map-button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 18px;border-radius:8px;font-size:.9375rem;font-weight:700;border:1px solid transparent;background:none;transition:filter .2s}
+.map-button:hover{filter:brightness(.95)}
+.map-naver{background:#03c75a;color:#fff}
+.map-kakao{background:#fee500;color:#191919}
+.map-copy{border-color:#c9d6d8;color:var(--navy);background:#fff}
+.location-sub{margin-top:26px;padding-top:22px;border-top:1px solid var(--line)}
+.location-pending{margin-top:6px;color:var(--muted);line-height:1.8}
+.location-pending a{color:var(--teal);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.location-day{background:var(--light)}
+.location-day .location-row{align-items:center}
+.day-list{list-style:none;margin:18px 0 0;padding:0}
+.day-list li{position:relative;padding:12px 0 12px 22px;border-top:1px solid var(--line);line-height:1.75;letter-spacing:-.02em}
+.day-list li:first-child{border-top:0}
+.day-list li::before{content:'';position:absolute;left:4px;top:1.35em;width:7px;height:7px;border-radius:50%;background:var(--teal)}
+.day-list li span{display:block;font-size:.8125rem;color:var(--muted)}
+.footer .footer-address{font-size:.75rem;margin-top:4px}
+@media(max-width:820px){.location-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.location-card{padding:22px}.map-buttons{margin-left:0}.map-button{flex:1 1 auto}.location-address{font-size:1rem}}
