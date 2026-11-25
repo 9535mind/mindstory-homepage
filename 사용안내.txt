@@ -11,7 +11,7 @@ index.html을 더블클릭하면 Chrome 또는 Edge에서 홈페이지가 열립
 
 2. 현재 연결된 사이트
 
-온라인 교육: https://mindstory.kr/
+온라인 교육: https://edu.mindstory.kr/ (평생교육원 새 주소)
 AI 그림동화: https://story.mindstory.kr/
 공식 블로그: https://blog.naver.com/sanj2100
 

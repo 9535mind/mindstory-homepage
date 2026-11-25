@@ -12,8 +12,8 @@ window.MINDSTORY_CONFIG = {
       title: '온라인 교육',
       subtitle: '마인드스토리 원격평생교육원',
       description: '교육과정을 살펴보고,\n나에게 필요한 배움을 시작하세요.',
-      link: 'https://mindstory.kr/',
-      domain: 'mindstory.kr',
+      link: 'https://edu.mindstory.kr/',
+      domain: 'edu.mindstory.kr',
       tag: '배우다',
       icon: 'book',
       tone: 'navy'

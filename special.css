@@ -113,3 +113,8 @@
   .faq summary{font-size:1rem;padding:18px 2px}
 }
 .contact-copy .contact-prep{margin-top:23px;color:#b7c7d1;font-size:.9375rem;line-height:1.9;letter-spacing:-.02em}
+
+/* 평생교육원 주소 안내 띠 */
+.move-notice{background:var(--navy);color:#d6e4ea;font-size:.875rem;line-height:1.5;text-align:center;padding:9px 16px}
+.move-notice a{color:var(--mint);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.move-notice a:hover{color:#fff}
