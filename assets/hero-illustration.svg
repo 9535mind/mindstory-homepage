@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="600" viewBox="0 0 640 600" fill="none">
+  <defs>
+    <linearGradient id="left-page" x1="150" y1="214" x2="313" y2="436" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFF8"/>
+      <stop offset=".62" stop-color="#F5F5EB"/>
+      <stop offset="1" stop-color="#DDE8DE"/>
+    </linearGradient>
+    <linearGradient id="right-page" x1="474" y1="201" x2="321" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F9EF"/>
+      <stop offset=".67" stop-color="#E8EEE2"/>
+      <stop offset="1" stop-color="#C3D8CA"/>
+    </linearGradient>
+    <linearGradient id="lifted-page" x1="373" y1="158" x2="354" y2="395" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFF7E8"/>
+      <stop offset=".56" stop-color="#C3EFDB"/>
+      <stop offset="1" stop-color="#70BAA4"/>
+    </linearGradient>
+    <linearGradient id="lifted-back" x1="455" y1="152" x2="481" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#82CBB4"/>
+      <stop offset="1" stop-color="#3C9A88"/>
+    </linearGradient>
+    <linearGradient id="left-edge" x1="117" y1="385" x2="301" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D2DFD6"/>
+      <stop offset="1" stop-color="#F1F1E5"/>
+    </linearGradient>
+    <linearGradient id="right-edge" x1="311" y1="472" x2="544" y2="363" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A9BCAD"/>
+      <stop offset="1" stop-color="#E5EADD"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="311" y1="359" x2="341" y2="365" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#92BBA6" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#669E85" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#669E85" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bookmark" x1="239" y1="397" x2="225" y2="497" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70BAA4"/>
+      <stop offset="1" stop-color="#C3EFDB"/>
+    </linearGradient>
+    <radialGradient id="ground-shadow" cx="0" cy="0" r="1" gradientTransform="translate(333 476) rotate(-10) scale(232 49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071C29" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#071C29" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="333" cy="476" rx="241" ry="65" fill="url(#ground-shadow)"/>
+
+  <!-- A restrained folded-paper accent. -->
+  <g transform="translate(442 99) rotate(-9)">
+    <path d="M0 14 25 0 49 15 24 30Z" fill="#C3EFDB"/>
+    <path d="M0 14 24 30 24 42 0 26Z" fill="#6FBBA3"/>
+    <path d="M24 30 49 15 49 27 24 42Z" fill="#3C9A88"/>
+    <path d="M1 14 25 1 47 15" stroke="#EAFBF1" stroke-opacity=".6" stroke-width="1.2"/>
+  </g>
+
+  <!-- The cloth cover and the visible thickness of the page block. -->
+  <path d="M93 389 140 221C211 205 274 231 330 279 392 207 445 183 507 191L565 374C472 392 384 435 305 502 230 451 158 423 91 417Z" fill="#2C766A"/>
+  <path d="M91 408C161 412 235 445 305 495 387 429 477 387 563 366L565 380C471 402 385 445 305 511 231 460 157 432 91 425Z" fill="#246052"/>
+  <path d="M92 408C159 415 233 445 305 495 385 430 473 389 562 367" stroke="#73BDA4" stroke-width="2.2"/>
+
+  <path d="M104 374C169 375 238 406 302 455L302 487C231 437 163 411 101 402Z" fill="url(#left-edge)"/>
+  <path d="M302 455C380 393 467 357 548 345L557 374C466 393 382 433 302 487Z" fill="url(#right-edge)"/>
+
+  <g stroke="#779C87" stroke-opacity=".37" stroke-width="1.2">
+    <path d="M103 385C170 390 235 419 302 468"/>
+    <path d="M102 391C166 398 237 429 302 476"/>
+    <path d="M303 467C383 408 469 370 551 355"/>
+    <path d="M303 475C384 418 472 381 554 364"/>
+  </g>
+  <path d="M302 456 302 487" stroke="#6C9881" stroke-opacity=".46" stroke-width="2"/>
+
+  <!-- A slim fabric marker falls naturally out of the lower page edge. -->
+  <path d="M237 414 260 426 245 501 235 490 222 495Z" fill="#0A2835" fill-opacity=".19"/>
+  <path d="M231 405 253 417 239 494 229 483 216 488Z" fill="url(#bookmark)"/>
+  <path d="M234 410 221 480" stroke="#DFF7E8" stroke-opacity=".55" stroke-width="1.2"/>
+
+  <!-- Fine offsets at the outer edges make the opened pages feel layered. -->
+  <path d="M108 375 146 204C215 190 277 217 331 263L303 462C234 412 169 383 108 389Z" fill="#E1E9DC"/>
+  <path d="M331 263C393 197 447 172 502 181L549 346C463 361 382 400 303 462Z" fill="#D8E5D8"/>
+  <path d="M112 369 149 201C216 188 276 217 331 263" stroke="#FBFCF2" stroke-width="2"/>
+  <path d="M335 261C393 199 447 176 502 184" stroke="#F6F8EC" stroke-width="2"/>
+
+  <!-- Main book surface: an uninterrupted, typeless spread. -->
+  <path d="M105 378 143 210C208 191 271 215 330 267L302 459C233 408 169 379 105 378Z" fill="url(#left-page)"/>
+  <path d="M330 267C391 201 447 177 499 185L547 348C463 361 382 400 302 459Z" fill="url(#right-page)"/>
+  <path d="M143 210C210 191 270 217 328 266" stroke="#FFFFFF" stroke-opacity=".85" stroke-width="1.4"/>
+  <path d="M105 378C171 379 235 409 302 459" stroke="#FCFDF4" stroke-width="1.4"/>
+  <path d="M302 459C383 400 465 361 547 348" stroke="#F8F9EC" stroke-opacity=".8" stroke-width="1.3"/>
+
+  <!-- The left leaf has a quiet sculptural lift at the crease. -->
+  <path d="M143 210C211 179 278 193 333 254L302 459C248 395 180 357 118 358Z" fill="#F9FAF0"/>
+  <path d="M143 210C212 180 278 194 333 254" stroke="#FFFFFF" stroke-opacity=".85" stroke-width="1.5"/>
+  <path d="M118 358C183 357 249 397 302 459 279 403 260 339 253 275 225 246 187 222 143 210L118 358Z" fill="#C3DCC9" fill-opacity=".11"/>
+
+  <!-- The mint leaf rises from the fold like a new idea taking shape. -->
+  <path d="M330 274C351 209 397 163 461 159L510 290C435 282 373 342 309 450Z" fill="#183F43" fill-opacity=".16" filter="url(#soft-shadow)"/>
+  <path d="M333 260C350 195 397 150 455 146L493 263C432 263 368 320 302 459Z" fill="url(#lifted-page)"/>
+  <path d="M455 146C455 177 469 218 493 263L503 248C483 214 469 175 467 146Z" fill="url(#lifted-back)"/>
+  <path d="M333 260C352 194 398 151 455 146" stroke="#F1FFF4" stroke-opacity=".85" stroke-width="1.6"/>
+  <path d="M455 146C457 180 471 220 493 263" stroke="#E0F8E8" stroke-opacity=".65" stroke-width="1.2"/>
+  <path d="M333 260C328 322 317 392 302 459" stroke="#397D69" stroke-opacity=".33" stroke-width="1.5"/>
+  <path d="M324 258C327 319 313 407 302 459L311 441C333 370 344 301 341 244Z" fill="url(#spine)"/>
+
+  <!-- One small leaf-shaped tab balances the elevated page. -->
+  <path d="M159 133C176 132 190 141 194 158 175 159 161 150 159 133Z" fill="#3C9A88"/>
+  <path d="M163 137 190 154" stroke="#9EDDC3" stroke-width="1.3" stroke-linecap="round"/>
+</svg>
