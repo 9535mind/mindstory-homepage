@@ -9,16 +9,6 @@ window.MINDSTORY_CONFIG = {
   email: 'sanj2100@naver.com',
   services: [
     {
-      title: '온라인 교육',
-      subtitle: '마인드스토리 원격평생교육원',
-      description: '교육과정을 살펴보고,\n나에게 필요한 배움을 시작하세요.',
-      link: 'https://edu.mindstory.kr/',
-      domain: 'edu.mindstory.kr',
-      tag: '배우다',
-      icon: 'book',
-      tone: 'navy'
-    },
-    {
       title: 'AI 그림동화',
       subtitle: '이야기로 펼치는 나만의 상상',
       description: '생각을 이야기로 표현하고,\n나만의 그림동화를 만들어 보세요.',
@@ -27,6 +17,16 @@ window.MINDSTORY_CONFIG = {
       tag: '만들다',
       icon: 'create',
       tone: 'teal'
+    },
+    {
+      title: '온라인 교육',
+      subtitle: '마인드스토리 원격평생교육원',
+      description: '교육과정을 살펴보고,\n나에게 필요한 배움을 시작하세요.',
+      link: 'https://edu.mindstory.kr/',
+      domain: 'edu.mindstory.kr',
+      tag: '배우다',
+      icon: 'book',
+      tone: 'navy'
     },
     {
       title: '공식 블로그',
